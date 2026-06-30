@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-blue: #F2F4FF;
+  --color-background-white: #FFFFFF;
+  --color-primary-blue: #394C97;
+  --color-secondary-orange: #FE5900;
+  --color-description-gray: #4A4A4A;
+  --color-border-color: #2C4B9D;
+}
+
+/*Remover setas do input númerico*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
