@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-origin: ["http://localhost:5173", "https://akatsuki-calculadora-ns5ziskiw-escola-de-empreendedores.vercel.app", "https://akatsuki-calculadora.vercel.app"],
+		origin: true,
 		methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
 		credentials: true,
 	})
