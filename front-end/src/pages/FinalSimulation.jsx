@@ -6,7 +6,7 @@ import PageTitle from "../components/PageTitle";
 
 import { formatBRL } from "../utils/currency";
 
-import PdfGenerator from "../components/PdfGenerator";
+import PdfGenerator from "../components/PdfGenerator.jsx";
 
 import {
   getMarginOptions,
